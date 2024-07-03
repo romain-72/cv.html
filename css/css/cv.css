@@ -4,3 +4,11 @@ body{
     margin-right: 50%;
     overflow-x: scroll ;
 }
+header img {
+    width: 75px;
+    height: 75px;
+    margin-left: 50%;
+    margin-right: 50%;
+    cursor: zoom-in;
+    border-radius: 100%;
+}
