@@ -12,14 +12,16 @@ header img {
     border-radius: 100%;
 }
 header{
+    margin: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: space-around;
+    align-items: center;
 }
 header section address{
+    width: 1160px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     background: #2c1d27;
 }
