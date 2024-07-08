@@ -1,8 +1,9 @@
 body{
     width: 1160px;
-    margin-left: 50%;
-    margin-right: 50%;
+    margin: auto;
+    border-right: 1px solid black;
     overflow-x: scroll ;
+    background: #782221;
 }
 header img {
     width: 75px;
