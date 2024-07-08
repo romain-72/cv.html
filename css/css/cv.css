@@ -34,3 +34,10 @@ header section address{
 header img:hover{
     cursor: zoom-in;
 }
+header section address p a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+header section address p a:hover{
+    text-decoration: underline;
+}
