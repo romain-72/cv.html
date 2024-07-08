@@ -55,3 +55,7 @@ main{
     width: 600px;
     grid-column: 2 / span 2;
 }
+main section h3{
+    background: #dbc2a4;
+    
+}
