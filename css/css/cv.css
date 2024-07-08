@@ -8,8 +8,18 @@ body{
 header img {
     width: 75px;
     height: 75px;
-    margin-left: 50%;
-    margin-right: 50%;
     cursor: zoom-in;
     border-radius: 100%;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+}
+header section address{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #2c1d27;
 }
