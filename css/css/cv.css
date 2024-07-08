@@ -43,19 +43,19 @@ header section address p a:hover{
 }
 main{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
 }
 #section1{
-    width: 600px;
     background: #782221;
     color: whitesmoke;
 }
 #section2{
-    width: 600px;
-    grid-column: 2 / span 2;
+    grid-column: 2 / span 3;
+    margin-right: 10px;
 }
 main section h3{
     background: #dbc2a4;
+    color: black;
     
 }
