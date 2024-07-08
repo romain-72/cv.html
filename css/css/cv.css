@@ -41,3 +41,17 @@ header section address p a {
 header section address p a:hover{
     text-decoration: underline;
 }
+main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+#section1{
+    width: 600px;
+    background: #782221;
+    color: whitesmoke;
+}
+#section2{
+    width: 600px;
+    grid-column: 2 / span 2;
+}
