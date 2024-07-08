@@ -56,6 +56,10 @@ main{
 }
 main section h3{
     background: #dbc2a4;
-    color: black;
-    
+    color: black;   
+}
+main>section>article>h3>p{
+    text-indent: 30px;
+    text-align: justify;
+    margin: 30px;
 }
