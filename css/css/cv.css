@@ -3,19 +3,25 @@ body{
     margin: auto;
     border-right: 1px solid black;
     overflow-x: scroll ;
-    background: #782221;
+}
+figure{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
 }
 header img {
-    width: 75px;
-    height: 75px;
-    cursor: zoom-in;
-    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px beige;
 }
 header{
-    margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: #782221;
+    color: whitesmoke;
 }
 header section address{
     width: 1160px;
@@ -24,4 +30,7 @@ header section address{
     justify-content: space-around;
     align-items: center;
     background: #2c1d27;
+}
+header img:hover{
+    cursor: zoom-in;
 }
