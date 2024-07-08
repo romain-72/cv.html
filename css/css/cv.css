@@ -1,6 +1,7 @@
 body{
     width: 1160px;
-    margin-left: 50%;
-    margin-right: 50%;
     overflow-x: scroll ;
+    margin: auto;
+    border-right: 1px solid black;
+    background: #782221;
 }
