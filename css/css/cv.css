@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face{
+    font-family: "raleway";
+    src: url(../fonts/Raleway-VariableFont_wght.ttf) format(truetype),
+        url(../fonts/Raleway-Italic-VariableFont_wght.ttf) format(truetype);
+}
+
 body{
     width: 1160px;
     margin: auto;
     border-right: 1px solid black;
     overflow-x: scroll ;
+    font-family: "raleway", serif;
 }
 figure{
     width: 100px;
@@ -80,4 +88,15 @@ main section h3{
     text-indent: 15px;
     border-left: 8px solid #782221;
 }
-
+h1{
+    font-family: "lato", "sans-serif";
+}
+h2{
+    font-family: "lato", "sans-serif";
+}
+h3{
+    font-family: "lato", "sans-serif";
+}
+h4{
+    font-family: "lato", "sans-serif";
+}
