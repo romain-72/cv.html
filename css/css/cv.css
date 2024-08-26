@@ -31,7 +31,7 @@ header{
     background: #782221;
     color: whitesmoke;
 }
-header section address{
+header div address{
     width: 1160px;
     display: flex;
     flex-direction: row;
@@ -43,11 +43,11 @@ header img:hover{
     cursor: zoom-in;
 }
 header img:active
-header section address p a {
+header div address p a {
     text-decoration: none;
     color: whitesmoke;
 }
-header section address p a:hover{
+header div address p a:hover{
     text-decoration: underline;
 }
 main{
